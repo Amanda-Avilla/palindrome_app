@@ -1,13 +1,13 @@
 require 'sinatra'
 
 get '/' do
-  erb :index, :layout => :page
+  erb :index
 end
 
 get '/about' do
-  erb :about, :layout => :page
+  erb :about
 end
 
 get '/palindrome' do
-  erb :palindrome, :layout => :page
+  erb :palindrome
 end
